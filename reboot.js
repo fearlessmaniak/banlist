@@ -6,7 +6,7 @@ module.exports = { name: 'reboot',
                    aliases: ["r","reboot","yenile","yeniden başlat"],
                    enabled: true,
                   guildOnly: false,
-                  permLevel: 4
+                  permLevel: 4,
   run : async (bot, message, args) => {
     if(message.author.id !== "BotSahibiId") return message.channel.send("bunu sadece sahibim kullanabilir")
     
