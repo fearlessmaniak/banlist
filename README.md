@@ -1,1 +1,1 @@
-# banlist
+# serendia squad
